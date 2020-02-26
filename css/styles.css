@@ -1,0 +1,236 @@
+/********************************TAGS****************************************/
+
+body{
+  color: #999999;
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+
+h1{
+  color: #08d9d6;
+  font-family: 'Dancing Script', cursive;
+  font-size: 7rem;
+  margin: 1rem;
+  padding: 7rem;
+}
+
+h2{
+  color: #45a29e;
+  font-family: 'Fanwood Text', serif;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+h3{
+  color: #45a29e;
+  font-family: 'Fanwood Text', serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h5{
+  font-family: 'Fanwood Text', serif;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+thead th{
+
+  border-bottom: 1px solid;
+  padding-bottom: .25rem;
+
+}
+
+tr{
+  padding: .5rem;
+
+}
+
+td{
+  padding: .25rem 2rem .25rem 1rem;
+  text-align: left;
+}
+
+
+/********************************FirstPanel****************************************/
+.container-fluid{
+  overflow: hidden;
+}
+
+#intro{
+  background-color: #0b0c10;
+  position: relative;
+}
+
+
+.nav-item{
+  padding: 0 1rem;
+}
+.navbar-dark .navbar-brand{
+  padding-left: 1%;
+  color: #c5c6c7;
+}
+
+div.intro-text{
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+  height: auto;
+  padding-left: 4%;
+
+}
+
+.profilepic{
+    padding: 0;
+    width:80%;
+    height:auto ;
+    border-radius:30%;
+    float: right;
+
+
+}
+
+.name-heading{
+  font-size: 9rem;
+  font-weight: normal;
+  color: #66fcf1;
+  font-family: 'Dancing Script', cursive;
+}
+
+.jobs{
+  font-weight: normal;
+  color: #c5c6c7;
+}
+
+.text-heading{
+  padding-top: 10%;
+  font-weight: lighter;
+  color: #c5c6c7;
+}
+
+@media (max-width: 1028px) {
+  .name-heading{
+    font-size: 5rem;
+    font-weight: normal;
+    color: #66fcf1;
+    font-family: 'Dancing Script', cursive;
+  }
+}
+
+/********************************Skillset****************************************/
+#middle{
+  background-color: white;
+  color: #1f2833;
+}
+
+.divider{
+  padding: 10% 20%;
+}
+
+hr.hr-text{
+  border-top: 1px solid #45a29e ;
+  width: 100%;
+}
+
+.skill-col{
+  padding: 0 5% 0 5%;
+  margin-bottom: 10%;
+}
+
+.skill-left-col{
+  border-right: 3px solid #b4d9d8;
+}
+
+.skill-text{
+  color: gray;
+  padding: 10%;
+}
+
+.skill-img{
+  width: 100%;
+  height: auto;
+  padding-left: 10%;
+}
+
+
+
+/********************************Footer****************************************/
+#footer{
+  background-color: #0b0c10;
+  color: #c5c6c7;
+  position: relative;
+  font-family: 'Libre Franklin', sans-serif;
+  text-align: center;
+}
+
+.footer-text{
+  padding: 5% 0 1% 0;
+  color: #c5c6c7;
+}
+
+.footer-icons{
+  padding: 4% 1% 5% 1%;
+  font-size: 1.5rem;
+}
+
+
+
+.copyright{
+  padding-top: 2%;
+  color: gray;
+}
+/*
+.profile{
+  padding: 7rem 2rem 5rem 2rem;
+  text-align: left;
+}
+
+.information{
+   text-align: center;
+}
+
+.education{
+  padding: 5rem 0 5rem 0;
+}
+
+.courses{
+  text-align: left;
+  list-style-position: inside;
+  display: inline-block;
+  margin: 0;
+  padding-left: 2rem;
+  vertical-align: top;
+}
+
+.work-exp{
+  padding: 5rem 0 5rem 0;
+}
+
+.skills{
+  padding: 5rem 0 5rem 0;
+}
+
+
+.center-left-paragraphs{
+  width: 30%;
+  text-align: left;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+*/
+
+/********************************SUBTAGS****************************************/
