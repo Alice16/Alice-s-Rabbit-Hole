@@ -40,17 +40,6 @@ h5{
   color: gray;
 }
 
-table{
-  margin-left: auto;
-  margin-right: auto;
-}
-
-thead th{
-
-  border-bottom: 1px solid;
-  padding-bottom: .25rem;
-
-}
 
 tr{
   padding: .5rem;
@@ -70,7 +59,7 @@ td{
 
 #intro{
   background-color: #0b0c10;
-  position: relative;
+
 }
 
 
@@ -87,7 +76,7 @@ div.intro-text{
   margin-bottom: auto;
   width: 100%;
   height: auto;
-  padding-left: 4%;
+  padding-left: 10%;
 
 }
 
@@ -126,16 +115,26 @@ div.intro-text{
     color: #66fcf1;
     font-family: 'Dancing Script', cursive;
   }
+  div.intro-text{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    height: auto;
+    padding-left: 4%;
+
+  }
 }
 
-/********************************Skillset****************************************/
 #middle{
   background-color: white;
   color: #1f2833;
+  padding: 8% 0 8% 0;
+
 }
 
+/********************************Education****************************************/
 .divider{
-  padding: 10% 20%;
+  padding: 3% 20% 10%;
 }
 
 hr.hr-text{
@@ -143,9 +142,95 @@ hr.hr-text{
   width: 100%;
 }
 
+.education{
+  padding-bottom: 15%;
+
+}
+.education-col{
+  overflow: hidden;
+  padding: 0;
+}
+
+.education-img{
+  transform: scaleX(-1);
+  height:auto;
+  width: auto;
+  margin-left: -90%;
+  margin-bottom: -50%;
+
+}
+
+.education-text{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 5%;
+}
+
+.education-text h5{
+  font-size: 1.4rem;
+}
+
+.courses{
+  padding-top: 15%;
+  font-size: 1.5rem;
+}
+
+.courses-list{
+  font-family: 'Fanwood Text', serif;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.captions{
+  position: relative;
+  z-index: 1;
+  background-color: black;
+  color: gray;
+}
+
+/********************************Experience****************************************/
+.experience{
+
+
+}
+
+.iconimg{
+  width: 100%;
+  height:270px;
+  border-radius: 100%;
+}
+
+.exp-text{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 3%;
+}
+
+.exp-col{
+  padding-bottom: 5%;
+}
+/********************************Skillset****************************************/
+
+.proficiency{
+  padding-bottom: 2%
+}
+
+.stars{
+  text-align: center;
+  font-size: 1.5rem;
+  padding-bottom: 15%;
+}
+
+.stars-table{
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+}
+
 .skill-col{
   padding: 0 5% 0 5%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 
 .skill-left-col{
@@ -163,24 +248,31 @@ hr.hr-text{
   padding-left: 10%;
 }
 
-
+/********************************Resume****************************************/
+.resumeimg{
+  border: 1px solid gray;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
 
 /********************************Footer****************************************/
 #footer{
   background-color: #0b0c10;
   color: #c5c6c7;
-  position: relative;
   font-family: 'Libre Franklin', sans-serif;
   text-align: center;
 }
 
 .footer-text{
-  padding: 5% 0 1% 0;
+  padding: 7% 0 1% 0;
   color: #c5c6c7;
 }
 
 .footer-icons{
-  padding: 4% 1% 5% 1%;
+  padding: 6% 1% 5% 1%;
   font-size: 1.5rem;
 }
 
