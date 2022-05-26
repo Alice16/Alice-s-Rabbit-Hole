@@ -17,7 +17,7 @@ h1{
 }
 
 h2{
-  color: #45a29e;
+  color: #367e7a;
   font-family: 'Fanwood Text', serif;
   font-size: 3rem;
   font-weight: bold;
@@ -134,7 +134,7 @@ div.intro-text{
 
 /********************************Education****************************************/
 .divider{
-  padding: 3% 20% 10%;
+  padding: 10% 3% 7% 3%;
 }
 
 hr.hr-text{
@@ -143,7 +143,7 @@ hr.hr-text{
 }
 
 .education{
-  padding-bottom: 15%;
+  padding-bottom: 5%;
 
 }
 .education-col{
@@ -190,7 +190,7 @@ hr.hr-text{
 
 /********************************Experience****************************************/
 .experience{
-
+  padding-bottom: 0%;
 
 }
 
@@ -207,18 +207,18 @@ hr.hr-text{
 }
 
 .exp-col{
-  padding-bottom: 5%;
+  padding-bottom: 3%;
 }
 /********************************Skillset****************************************/
 
 .proficiency{
-  padding-bottom: 2%
+  padding-bottom: 2%;
 }
 
 .stars{
   text-align: center;
   font-size: 1.5rem;
-  padding-bottom: 15%;
+  padding-bottom: 1%;
 }
 
 .stars-table{
@@ -229,8 +229,8 @@ hr.hr-text{
 }
 
 .skill-col{
-  padding: 0 5% 0 5%;
-  margin-bottom: 15%;
+  padding: 6% 3% 4% 3%;
+  
 }
 
 .skill-left-col{
@@ -249,13 +249,18 @@ hr.hr-text{
 }
 
 /********************************Resume****************************************/
+.resumeprop{
+  padding-bottom: 5%;
+}
+
 .resumeimg{
   border: 1px solid gray;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  height: auto;
+  height:auto
+
 }
 
 /********************************Footer****************************************/
@@ -271,15 +276,67 @@ hr.hr-text{
   color: #c5c6c7;
 }
 
-.footer-icons{
-  padding: 6% 1% 5% 1%;
-  font-size: 1.5rem;
+.footer-contact{
+  font-size: 2rem;
+  padding: 3% 0 0% 0;
+  color: #c5c6c7;
+ 
+  
+  
 }
 
+.footer-icons{
+  padding: 1% 1% 1% 1%;
+  font-size: 1.5rem;
 
+}
+
+.footer-buttons{
+  color: #c5c6c7;
+}
+.footer-buttons:hover{
+  color: #08d9d6;
+  text-decoration: none;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 
 .copyright{
-  padding-top: 2%;
+  padding-top: 5%;
   color: gray;
 }
 /*
